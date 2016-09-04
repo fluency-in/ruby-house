@@ -1,4 +1,4 @@
-# House
+# Ruby: House
 
 Write a program that outputs the nursery rhyme 'This is the House that Jack Built'.
 
@@ -106,6 +106,20 @@ that ate the malt
 that lay in the house that Jack built.
 ```
 
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby house_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 British nursery rhyme [http://en.wikipedia.org/wiki/This_Is_The_House_That_Jack_Built](http://en.wikipedia.org/wiki/This_Is_The_House_That_Jack_Built)
@@ -114,3 +128,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
